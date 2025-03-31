@@ -23,7 +23,7 @@ platform :ios do
 
   lane :run_unit_tests do
     scan(
-    scheme: "MoviesUS", # Replace with your actual test scheme
+    scheme: "Movies-App", # Replace with your actual test scheme
     device: "iPhone 15 Pro", # Choose a simulator
     clean: true, # Clean the build before running tests
     output_directory: "fastlane/test_output", # Store test results here
