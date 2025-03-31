@@ -11,6 +11,7 @@ import XCTest
 let mocMovies = [Movie(id: 0, title: "Test1", overview: "Overview1", posterPath: "path1", release_date: ""),
                  Movie(id: 1, title: "Test2", overview: "Info 2", posterPath: "path2", release_date: "")]
 @MainActor
+@MainActor
 final class MoviesUSTests: XCTestCase {
     
     func testSearchMovies_Success() async {
